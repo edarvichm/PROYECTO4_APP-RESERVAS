@@ -1,5 +1,7 @@
 // import React from 'react'
 
+import { NavLink } from "react-router-dom"
+
 
 export const NavBar = () => {
   return (
@@ -18,22 +20,22 @@ export const NavBar = () => {
       <div className="offcanvas-body">
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">Home</a>
+            <NavLink className="nav-link active" aria-current="page" href="/">Home</NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Link</a>
+            <NavLink className="nav-link" href="#">Link</NavLink>
           </li>
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <NavLink className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown
-            </a>
+            </NavLink>
             <ul className="dropdown-menu">
-              <li><a className="dropdown-item" href="#">Action</a></li>
-              <li><a className="dropdown-item" href="#">Another action</a></li>
+              <li><NavLink className="dropdown-item" href="#">Action</NavLink></li>
+              <li><NavLink className="dropdown-item" href="#">Another action</NavLink></li>
               <li>
                 <hr className="dropdown-divider" />
               </li>
-              <li><a className="dropdown-item" href="#">Something else here</a></li>
+              <li><NavLink className="dropdown-item" href="#">Something else here</NavLink></li>
             </ul>
           </li>
         </ul>

@@ -1,7 +1,8 @@
 // import { useState } from 'react'
 import './App.css'
 import { NavBar } from './components/NavBar'
-import HomePage from './components/HomePage'
+// import HomePage from './pages/HomePage'
+import { MainRoutes } from './routers/MainRouter'
 
 function App() {
   
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <HomePage />
+      <MainRoutes />
 
     </>
   )
