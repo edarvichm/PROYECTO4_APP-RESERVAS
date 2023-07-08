@@ -5,12 +5,12 @@ import { NavLink } from "react-router-dom";
 export const NavBar = () => {
   return (
     <>
-      <nav className="navbar  bg-body-tertiary fixed-top b-auto">
+      <nav id="navbar" className="navbar  bg-body-tertiary fixed-top">
         {/* fixed-top */}
         <div className="container-fluid">
           <a className="navbar-brand" to="#">
             <img
-              src="../../public/img/Logosf.svg"
+              src="/img/Logosf.svg"
               alt=""
               width="354"
               height="123"

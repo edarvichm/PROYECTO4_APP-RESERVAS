@@ -1,7 +1,13 @@
 // import React from "react";
 
+import FormReservas from "../components/FormReservas";
+
 const ReservasPage = () => {
-  return <div>reservas</div>;
+  return (
+  <>
+    <FormReservas />
+  </>
+  )
 };
 
 export default ReservasPage;

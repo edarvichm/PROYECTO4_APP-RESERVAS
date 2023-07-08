@@ -1,144 +1,54 @@
 // import React from 'react'
 
+import { NavLink } from "react-router-dom";
+import FormContact from "../components/FormContact";
+// import rPage from "../pages/reservas";
+
 const HomePage = () => {
   return (
     <>
-      <div className="card">
-        <img src="..." className="card-img-top" alt="..." />
+      <div className="card mt-3">
+        {/* <img src="..." className="card-img-top" alt="..." /> */}
 
         <div className="card-body">
-          <h5 className="card-title">BIENVENIDOS</h5>
+          <h5 className="card-title">Menú a la Carta</h5>
           <p className="card-text">
-            Bienvenidos a nuestro restaurante de comida chilena, donde la
-            tradición y el sabor se fusionan para ofrecerte una experiencia
-            culinaria única. Sumérgete en los sabores auténticos de Chile
-            mientras te deleitas con platos tradicionales que han conquistado
-            paladares durante generaciones.
+          Elige una o mas opciones de nuestra carta.
           </p>
-          <a href="#" className="btn btn-primary">
-            Contacto
-          </a>
+          <NavLink className="btn btn-primary" to="/Reservas">
+                    Reservar
+                  </NavLink>
         </div>
       </div>
-      <div className="card">
-        <img src="..." className="card-img-top" alt="..." />
+      <div className="card mt-3">
+        {/* <img src="..." className="card-img-top" alt="..." /> */}
 
         <div className="card-body">
-          <h5 className="card-title">BIENVENIDOS</h5>
+          <h5 className="card-title">Menú de 3 Tiempos</h5>
           <p className="card-text">
-            Bienvenidos a nuestro restaurante de comida chilena, donde la
-            tradición y el sabor se fusionan para ofrecerte una experiencia
-            culinaria única. Sumérgete en los sabores auténticos de Chile
-            mientras te deleitas con platos tradicionales que han conquistado
-            paladares durante generaciones.
+          Elige una entrada, un plato de fondo y postres clásicos de Francia.
           </p>
-          <a href="#" className="btn btn-primary">
-            Contacto
-          </a>
+          
+          <NavLink className="btn btn-primary" to="/Reservas">
+                    Reservar
+                  </NavLink>
         </div>
       </div>
-      <div className="card">
-        <img src="..." className="card-img-top" alt="..." />
+      <div className="card mt-3">
+        {/* <img src="..." className="card-img-top" alt="..." /> */}
 
         <div className="card-body">
-          <h5 className="card-title">BIENVENIDOS</h5>
+          <h5 className="card-title">Menú de 5 Tiempos</h5>
           <p className="card-text">
-            Bienvenidos a nuestro restaurante de comida chilena, donde la
-            tradición y el sabor se fusionan para ofrecerte una experiencia
-            culinaria única. Sumérgete en los sabores auténticos de Chile
-            mientras te deleitas con platos tradicionales que han conquistado
-            paladares durante generaciones.
+          Elige un picoteo, entrada, un plato de fondo y postres clásicos de Francia.
           </p>
-          <a href="#" className="btn btn-primary">
-            Contacto
-          </a>
+          
+          <NavLink className="btn btn-primary" to="/Reservas">
+                    Reservar
+                  </NavLink>
         </div>
       </div>
-      <div className="card">
-        <img src="..." className="card-img-top" alt="..." />
-
-        <div className="card-body">
-          <h5 className="card-title">BIENVENIDOS</h5>
-          <p className="card-text">
-            Bienvenidos a nuestro restaurante de comida chilena, donde la
-            tradición y el sabor se fusionan para ofrecerte una experiencia
-            culinaria única. Sumérgete en los sabores auténticos de Chile
-            mientras te deleitas con platos tradicionales que han conquistado
-            paladares durante generaciones.
-          </p>
-          <a href="#" className="btn btn-primary">
-            Contacto
-          </a>
-        </div>
-      </div>
-      <div className="card">
-        <img src="..." className="card-img-top" alt="..." />
-
-        <div className="card-body">
-          <h5 className="card-title">BIENVENIDOS</h5>
-          <p className="card-text">
-            Bienvenidos a nuestro restaurante de comida chilena, donde la
-            tradición y el sabor se fusionan para ofrecerte una experiencia
-            culinaria única. Sumérgete en los sabores auténticos de Chile
-            mientras te deleitas con platos tradicionales que han conquistado
-            paladares durante generaciones.
-          </p>
-          <a href="#" className="btn btn-primary">
-            Contacto
-          </a>
-        </div>
-      </div>
-      <div className="card">
-        <img src="..." className="card-img-top" alt="..." />
-
-        <div className="card-body">
-          <h5 className="card-title">BIENVENIDOS</h5>
-          <p className="card-text">
-            Bienvenidos a nuestro restaurante de comida chilena, donde la
-            tradición y el sabor se fusionan para ofrecerte una experiencia
-            culinaria única. Sumérgete en los sabores auténticos de Chile
-            mientras te deleitas con platos tradicionales que han conquistado
-            paladares durante generaciones.
-          </p>
-          <a href="#" className="btn btn-primary">
-            Contacto
-          </a>
-        </div>
-      </div>
-      <div className="card">
-        <img src="..." className="card-img-top" alt="..." />
-
-        <div className="card-body">
-          <h5 className="card-title">BIENVENIDOS</h5>
-          <p className="card-text">
-            Bienvenidos a nuestro restaurante de comida chilena, donde la
-            tradición y el sabor se fusionan para ofrecerte una experiencia
-            culinaria única. Sumérgete en los sabores auténticos de Chile
-            mientras te deleitas con platos tradicionales que han conquistado
-            paladares durante generaciones.
-          </p>
-          <a href="#" className="btn btn-primary">
-            Contacto
-          </a>
-        </div>
-      </div>
-      <div className="card">
-        <img src="..." className="card-img-top" alt="..." />
-
-        <div className="card-body">
-          <h5 className="card-title">BIENVENIDOS</h5>
-          <p className="card-text">
-            Bienvenidos a nuestro restaurante de comida chilena, donde la
-            tradición y el sabor se fusionan para ofrecerte una experiencia
-            culinaria única. Sumérgete en los sabores auténticos de Chile
-            mientras te deleitas con platos tradicionales que han conquistado
-            paladares durante generaciones.
-          </p>
-          <a href="#" className="btn btn-primary">
-            Contacto
-          </a>
-        </div>
-      </div>
+      <FormContact />
     </>
   );
 };
