@@ -3,8 +3,9 @@
 
 import { NavLink } from "react-router-dom";
 
-export const NavBar = ({ navHeight }) => {
-  navHeight(200);
+// export const NavBar = ({ navHeight }) => {
+export const NavBar = () => {
+  // navHeight(200);
   return (
     <>
       {/* {() => navHeight(200)} */}
