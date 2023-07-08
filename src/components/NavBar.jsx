@@ -10,7 +10,7 @@ export const NavBar = () => {
         <div className="container-fluid">
           <a className="navbar-brand" to="#">
             <img
-              src="/img/Logosf.svg"
+              src="/PROYECTO4_APP-RESERVAS/img/Logosf.svg"
               alt=""
               width="354"
               height="123"
