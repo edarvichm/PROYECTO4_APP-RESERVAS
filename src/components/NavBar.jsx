@@ -1,12 +1,14 @@
+/* eslint-disable react/prop-types */
 // import React from 'react'
 
 import { NavLink } from "react-router-dom";
 
-export const NavBar = () => {
+export const NavBar = ({ navHeight }) => {
+  navHeight(200);
   return (
     <>
+      {/* {() => navHeight(200)} */}
       <nav id="navbar" className="navbar  bg-body-tertiary fixed-top">
-        {/* fixed-top */}
         <div className="container-fluid">
           <a className="navbar-brand" to="#">
             <img
@@ -53,6 +55,11 @@ export const NavBar = () => {
                     to="/"
                   >
                     Home
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="/Carta">
+                    Carta
                   </NavLink>
                 </li>
                 <li className="nav-item">
