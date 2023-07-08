@@ -9,7 +9,13 @@ export const NavBar = () => {
         {/* fixed-top */}
         <div className="container-fluid">
           <a className="navbar-brand" to="#">
-            Offcanvas navbar
+            <img
+              src="../../public/img/Logosf.svg"
+              alt=""
+              width="354"
+              height="123"
+              className="d-inline-block align-text-top"
+            />
           </a>
           <button
             className="navbar-toggler"
@@ -29,7 +35,7 @@ export const NavBar = () => {
           >
             <div className="offcanvas-header">
               <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-                Offcanvas
+                Menú
               </h5>
               <button
                 type="button"
@@ -50,8 +56,8 @@ export const NavBar = () => {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="#">
-                    Link
+                  <NavLink className="nav-link" to="/Reservas">
+                    Reservas
                   </NavLink>
                 </li>
                 <li className="nav-item dropdown">
@@ -62,41 +68,27 @@ export const NavBar = () => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Dropdown
+                    Carta
                   </NavLink>
                   <ul className="dropdown-menu">
                     <li>
                       <NavLink className="dropdown-item" to="#">
-                        Action
+                        Menú de 3 Tiempos
                       </NavLink>
                     </li>
                     <li>
                       <NavLink className="dropdown-item" to="#">
-                        Another action
+                        Menú de 5 Tiempos
                       </NavLink>
                     </li>
                     <li>
-                      <hr className="dropdown-divider" />
-                    </li>
-                    <li>
                       <NavLink className="dropdown-item" to="#">
-                        Something else here
+                        Menú a la Carta
                       </NavLink>
                     </li>
                   </ul>
                 </li>
               </ul>
-              <form className="d-flex mt-3" role="search">
-                <input
-                  className="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button className="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
             </div>
           </div>
         </div>

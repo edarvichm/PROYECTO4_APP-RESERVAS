@@ -1,5 +1,6 @@
-import { Navigate, Route, Routes } from 'react-router-dom';
-import HomePage  from '../pages/HomePage';
+import { Navigate, Route, Routes } from "react-router-dom";
+import HomePage from "../pages/HomePage";
+import ReservasPage from "../pages/reservas";
 // import { UsuariosPage } from '../pages/UsuariosPage';
 // import { UserPage } from '../pages/UserPage';
 // import { ProtectedRoutes } from './ProtectedRoutes';
@@ -11,15 +12,16 @@ export const MainRoutes = () => {
   return (
     <div className="container">
       <Routes>
-      <Route path='/' element={<HomePage />} />
-      {/* <Route path='usuarios' element={<UsuariosPage />} /> */}
-      {/* <Route path="/usuarios/:otrouuid" element={<UserPage />} /> */}
+        <Route path="/" element={<HomePage />} />
+        <Route path="/reservas" element={<ReservasPage />} />
+        {/* <Route path='usuarios' element={<UsuariosPage />} /> */}
+        {/* <Route path="/usuarios/:otrouuid" element={<UserPage />} /> */}
 
-      <Route path="*" element={<Navigate to="/" />}/>
-    </Routes>
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
     </div>
-  )
-}
+  );
+};
 
 // export const MainRouter = ({ user }) => {
 //   return (
