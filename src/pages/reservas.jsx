@@ -1,11 +1,13 @@
+/* eslint-disable react/prop-types */
 // import React from "react";
 
 import FormReservas from "../components/FormReservas";
-
-const ReservasPage = () => {
+// {menu}
+const ReservasPage = ({menu} ) => {
   return (
   <>
     <FormReservas />
+    {menu}
   </>
   )
 };

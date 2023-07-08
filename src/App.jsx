@@ -1,4 +1,4 @@
-// import { useState } from 'react'
+import { useState } from 'react'
 // import './App.css'
 import { NavBar } from "./components/NavBar";
 // import HomePage from './pages/HomePage'
@@ -6,7 +6,7 @@ import { MainRoutes } from "./routers/MainRouter";
 
 function App() {
   // Calcula el tamaño del navbar dinámicamente
-  // const [navHeight, setNavHeight] = useState(0);
+  const [navHeight, setNavHeight] = useState(0); //useRef()
   // console.log('nav '+navHeight);
   // const handleResize = () => {
   //   setNavHeight(document.getElementById("navbar").offsetHeight);
@@ -21,9 +21,9 @@ function App() {
   return (
     <>
       <div className="container">
-        <NavBar />
+        <NavBar navHeight={setNavHeight}/>
       </div>
-      <div className="container" style={{ marginTop: 200}}>
+      <div className="container" style={{ marginTop: navHeight}}>
         <MainRoutes />
       </div>
     </>
