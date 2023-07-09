@@ -3,11 +3,7 @@
 export const Carta = () => {
   return (
     <div>
-      <img
-        src="/PROYECTO4_APP-RESERVAS/img/carta2.png"
-        className="img-fluid"
-        alt="..."
-      />
+      <img src="/img/carta2.png" className="img-fluid" alt="..." />
     </div>
   );
 };
