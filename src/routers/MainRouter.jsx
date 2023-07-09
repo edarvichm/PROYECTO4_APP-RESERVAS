@@ -2,12 +2,6 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import ReservasPage from "../pages/Reservas";
 import { Carta } from "../pages/Carta";
-// import { UsuariosPage } from '../pages/UsuariosPage';
-// import { UserPage } from '../pages/UserPage';
-// import { ProtectedRoutes } from './ProtectedRoutes';
-// import { AdminPage } from '../pages/AdminPage';
-// import { QuotesPages } from '../pages/QuotesPages';
-// import { CrudPage } from '../pages/CrudPage';
 
 export const MainRoutes = () => {
   return (
